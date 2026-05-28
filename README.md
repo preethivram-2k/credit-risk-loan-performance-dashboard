@@ -55,10 +55,13 @@ An interactive 3-page Power BI dashboard analyzing 89,000+ loan records to uncov
 ---
 
 ## ⚠️ Data Quality Findings
-- 42% unclassified risk categories — reflects missing data in legacy banking systems
-- Bankruptcy count up to 5 — statistically rare in real-world; likely synthetic Kaggle dataset
-- No date columns — time intelligence not applicable; analysis focused on borrower segmentation
+## ⚠️ Data Quality Findings
 
+- **42% unclassified risk categories** — A large portion of records had no risk classification. Instead of removing them, I retained these records and labeled them as 'Unknown' to preserve data completeness. In real banking systems, missing classifications are common due to legacy data migration issues.
+
+- **Bankruptcy count ranged up to 5** — This is statistically unusual in real-world banking, where 4–5 bankruptcies per individual are extremely rare. This suggests the dataset may contain synthetic data — a common characteristic of public Kaggle datasets. In a production environment, I would validate this anomaly with the data engineering team before proceeding with analysis.
+
+- **No date columns present** — The dataset contained no date columns, making time intelligence functions (YTD, MoM trends) inapplicable. Analysis was therefore focused on borrower segmentation and risk profiling rather than time-based trends.
 ---
 
 ## 🛠️ Tools & Technologies
