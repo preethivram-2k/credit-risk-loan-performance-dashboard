@@ -1,7 +1,6 @@
-# credit-risk-loan-performance-dashboard
+#  Credit Risk & Loan Performance Dashboard
 Credit Risk &amp; Loan Performance Dashboard built with Power BI | DAX | Power Query | BFSI Domain
 
-# Credit Risk & Loan Performance Dashboard
 ### Power BI | DAX | Power Query | BFSI Domain
 
 ---
