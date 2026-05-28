@@ -82,5 +82,5 @@ An interactive 3-page Power BI dashboard analyzing 89,000+ loan records to uncov
 ---
 
 ## 👤 Author
-**Preethiv** | Aspiring Data Analyst — BFSI Domain
-[LinkedIn](#) | [GitHub](#)
+**Preethiv Ram** | Aspiring Data Analyst — BFSI Domain
+[LinkedIn](www.linkedin.com/in/preethivram) | [GitHub](https://github.com/preethivram-2k)
