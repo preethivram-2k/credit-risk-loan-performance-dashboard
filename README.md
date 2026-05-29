@@ -74,6 +74,40 @@ An interactive 3-page Power BI dashboard analyzing 89,000+ loan records to uncov
 - Rows: ~89,000
 - Domain: BFSI
 
+## ❓ Problem Statement
+
+Banks and NBFCs lose crores of rupees every year due to 
+loan defaults (NPA — Non-Performing Assets). Traditional 
+credit checks often rely on single factors like bankruptcy 
+history, which this analysis proves is insufficient. 
+This project analyzes 89,000+ loan records to identify 
+patterns that better predict borrower default risk.
+
+---
+
+## 🎯 Objectives
+
+1. Identify loan default patterns across borrower segments
+2. Discover high-risk borrower profiles using multiple factors
+3. Support data-driven loan approval decisions in banking
+
+---
+
+## 💡 Recommendations
+
+Based on the analysis, banks should consider:
+
+- Long-term loan applicants → stricter income verification 
+  + higher interest rates
+- Renters → lower loan amount approval + higher collateral 
+  requirement
+- High Risk borrowers → additional verification before 
+  approval
+- Avoid single-factor decisions — combine Credit Score, 
+  DTI, Home Ownership & Loan Term
+- Unknown risk category (42%) → treat as Medium Risk 
+  until properly classified
+
 ---
 
 ## 🎨 Design Credits
