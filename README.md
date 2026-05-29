@@ -54,7 +54,6 @@ An interactive 3-page Power BI dashboard analyzing 89,000+ loan records to uncov
 ---
 
 ## ⚠️ Data Quality Findings
-## ⚠️ Data Quality Findings
 
 - **42% unclassified risk categories** — A large portion of records had no risk classification. Instead of removing them, I retained these records and labeled them as 'Unknown' to preserve data completeness. In real banking systems, missing classifications are common due to legacy data migration issues.
 
@@ -71,7 +70,7 @@ An interactive 3-page Power BI dashboard analyzing 89,000+ loan records to uncov
 ---
 
 ## 📁 Dataset
-- Source: Kaggle — Bank Loan Status Dataset
+- Source: [Kaggle — Bank Loan Status Dataset](https://www.kaggle.com/datasets/zaurbegiev/my-dataset)
 - Rows: ~89,000
 - Domain: BFSI
 
